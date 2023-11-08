@@ -1,8 +1,8 @@
 import collections
 
-cf_file = 'datasets/last-fm/train.txt'
-kg_file = 'datasets/last-fm/kg_final.txt'
-save_file = 'datasets/last-fm/kg_final2.txt'
+cf_file = 'datasets/ml-1m/train.txt'
+kg_file = 'datasets/ml-1m/kg_final.txt'
+save_file = 'datasets/ml-1m/kg_final2.txt'
 
 nodes = collections.defaultdict(list)
 items = set()
