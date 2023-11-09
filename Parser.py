@@ -7,8 +7,8 @@ def parse_args():
     parser.add_argument("--seed", type=int, default=2023, help="random seed.")
 
     # nargs=?，如果没有在命令行中出现对应的项，则给对应的项赋值为default。
-    parser.add_argument("--dataset", nargs="?", default="yelp2018",
-                        help="choose a dataset from {last-fm,amazon-book,yelp2018}")
+    parser.add_argument("--dataset", nargs="?", default="ml-1m",
+                        help="choose a dataset from {last-fm, ml-1m}")
     parser.add_argument("--dataset_dir", nargs="?", default="datasets", help="datasets path")
 
     parser.add_argument("--use_pretrain", type=int, default=1,
@@ -29,8 +29,6 @@ def parse_args():
 
     parser.add_argument('--laplacian_type', type=str, default='random-walk',
                         help='Specify the type of the adjacency (laplacian) matrix from {symmetric, random-walk}.')
-    # parser.add_argument('--aggregation_type', type=str, default='bi-interaction',
-    #                     help='Specify the type of the aggregation layer from {gcn, graphsage, bi-interaction}.')
     parser.add_argument("--conv_dim_list", nargs="?", default="[64,32,16]",
                         help="output size of every aggregation layer.")
     parser.add_argument("--mess_dropout", nargs="?", default="[0.1,0.1,0.1]",

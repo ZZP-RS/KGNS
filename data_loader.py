@@ -88,7 +88,7 @@ class DataLoader(object):
         self.n_cf_test = len(self.cf_test_data[0])  # 423635
 
     def load_pretrained_data(self):
-        pre_model = 'kgat2'
+        pre_model = 'kgat'
         pretrain_path = '%s/%s/%s.npz' % (self.pretrain_embeddings_dir, self.dataset, pre_model)
         pretrain_data = np.load(pretrain_path)
         self.user_pre_embed = pretrain_data['user_embed']
