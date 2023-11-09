@@ -15,7 +15,7 @@ The code has been tested running under Python 3.7.10. The required packages are 
 * tqdm == 4.65.0
 * scikit-learn == 1.2.2
 
-## KRALR operation steps
+## KGLR operation steps
 1. run selector.py to generate Long-tail Neighbors
 ~~~
 python selector.py
