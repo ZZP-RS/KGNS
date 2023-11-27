@@ -32,13 +32,13 @@ python main_KGLR.py
 ## datasets
 We provided two datasets to validate KGLR: last-fm and ml-1m, the former obtained from KGAT, and the latter is a version released by Movielens-1m. The following table shows the information of two datasets:
 
-|                | Last-FM |  ml-1m  |
-| :------------: | :-----: | :-----: |
-|    n_users     |  23566  |  6040   |
-|    n_items     |  48123  |  3655   |
-| n_interactions | 3034796 | 997579  |
-|   n_entities   | 106389  | 398505  |
-|  n_relations   |    9    |   57    |
-|   n_triples    | 464567  | 3396595 |
+|                | Last-FM |MovieLens-1m|
+| :------------: | :-----: |  :-----:   |
+|    n_users     |  23566  |    6040    |
+|    n_items     |  48123  |    3655    |
+| n_interactions | 3034796 |   997579   |
+|   n_entities   | 106389  |   398505   |
+|  n_relations   |    9    |     57     |
+|   n_triples    | 464567  |   3396595  |
 
 The pretraining embedding we provide comes from KGAT
