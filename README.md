@@ -1,5 +1,5 @@
 ## Introduction
-KGLR is a new recommendation framework for long tail recommendations. KGLR is based on the graph neural network framework, which expands the long tail interest of users and enhances the long tail item representation using co-occurrence graphs to provide high-quality recommendations.
+KGRL is a new recommendation framework for long tail recommendations. KGRL is based on the graph neural network framework, which expands the long tail interest of users and enhances the long tail item representation using co-occurrence graphs to provide high-quality recommendations.
 
 ## Author
 Zhipeng Zhang 
@@ -15,7 +15,7 @@ The code has been tested running under Python 3.7.10. The required packages are 
 * tqdm == 4.65.0
 * scikit-learn == 1.2.2
 
-## KGLR operation steps
+## KGRL operation steps
 1. run selector.py to generate Long-tail Neighbors
 ~~~
 python selector.py
@@ -24,13 +24,13 @@ python selector.py
 ~~~
 python doCooccur.py
 ~~~
-3. start KGLR
+3. start KGRL
 ~~~
-python main_KGLR.py
+python main_KGRL.py
 ~~~
 
 ## datasets
-We provided two datasets to validate KGLR: last-fm and ml-1m, the former obtained from KGAT, and the latter is a version released by Movielens-1m. The following table shows the information of two datasets:
+We provided two datasets to validate KGRL: last-fm and ml-1m, the former obtained from KGAT, and the latter is a version released by Movielens-1m. The following table shows the information of two datasets:
 
 |                | Last-FM |  ml-1m  |
 | :------------: | :-----: | :-----: |
@@ -41,4 +41,3 @@ We provided two datasets to validate KGLR: last-fm and ml-1m, the former obtaine
 |  n_relations   |    9    |   57    |
 |   n_triples    | 464567  | 3396595 |
 
-The pretraining embedding we provide comes from KGAT

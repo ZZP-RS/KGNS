@@ -51,9 +51,9 @@ def _L2_loss_mean(x):
     return torch.mean(torch.sum(torch.pow(x, 2), dim=1, keepdim=False) / 2.)
 
 
-class KGLR(nn.Module):
+class KGRL(nn.Module):
     def __init__(self, args, n_users, n_entities, n_relations, train_user_dict, train_user_dict2,A_in=None, user_pre_embed=None, item_pre_embed=None):
-        super(KGLR, self).__init__()
+        super(KGRL, self).__init__()
 
         self.use_pretrain = args.use_pretrain
 
