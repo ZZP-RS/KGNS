@@ -30,9 +30,9 @@ python main_KGRL.py
 ~~~
 
 ## datasets
-We provided two datasets to validate KGRL: last-fm and ml-1m, the former obtained from KGAT, and the latter is a version released by Movielens-1m. The following table shows the information of two datasets:
+We provided two datasets to validate KGRL: Last-FM and MovieLens-1M, the former obtained from KGAT, and the latter is a version released by MovieLens-1M. The following table shows the information of two datasets:
 
-|                | Last-FM |MovieLens-1m|
+|                | Last-FM |MovieLens-1M|
 | :------------: | :-----: |  :-----:   |
 |    n_users     |  23566  |    6040    |
 |    n_items     |  48123  |    3655    |
