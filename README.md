@@ -40,6 +40,7 @@ We provided two datasets to validate KGRL: Last-FM and MovieLens-1M, the former 
 |   n_entities   | 106389  |   398505   |
 |  n_relations   |    9    |     57     |
 |   n_triples    | 464567  |   3396595  |
+
  Besides the user-item interactions, we need to construct item knowledge for each dataset. For last-fm, we mapped items to Microsoft Satori entities. For ml-1m, we employed Freebase to map movies in MovieLens1M to construct KG.
 The following table shows the KG information of last-fm  and ml-1m :
 
