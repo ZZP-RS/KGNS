@@ -10,7 +10,7 @@ from tqdm import tqdm
 import torch.nn as nn
 import torch.optim as optim
 
-from KGRL import KGRL
+from KGNS import KGNS
 from Parser import *
 from utils.log_helper import *
 from data_loader import DataLoader
@@ -148,7 +148,7 @@ def train(args):
         user_pre_embed, item_pre_embed = None, None
 
     # construct model & optimizer                                                                                ,data.train_user_dict3 在A_in之前
-    model = KGRL(args, data.n_users, data.n_entities, data.n_relations, data.train_user_dict, data.train_user_dict2,
+    model = KGNS(args, data.n_users, data.n_entities, data.n_relations, data.train_user_dict, data.train_user_dict2,
                    data.A_in, user_pre_embed, item_pre_embed)
     if args.use_pretrain == 2:
         model = load_model(model, args.pretrain_model_path)
