@@ -52,16 +52,16 @@ We provided two datasets to validate KGNS: Last-FM and MovieLens-1M, the former 
 |    n_users     |  23566  |    6040    |
 |    n_items     |  48123  |    3655    |
 | n_interactions | 3034796 |   997579   |
-|   n_entities   | 106389  |   398505   |
+|   n_entities   | 58266  |   398505   |
 |  n_relations   |    9    |     57     |
 |   n_triples    | 464567  |   3396595  |
 
-Besides the user-item interactions, we need to construct item knowledge for each dataset. For Last-FM, we mapped items to Microsoft Satori entities. For MovieLens-1M, we employed Freebase to map movies in MovieLens-1M to construct KG.
+Besides the user-item interactions, we need to construct item knowledge for each dataset. For Last-FM, we mapped items to Freebase entities. For MovieLens-1M, we employed Freebase to map movies in MovieLens-1M to construct KG.
 The following table shows the KG information of Last-FM and MovieLens-1M:
 
 | Knowledge Graph |   Microsoft Satori (Last-FM)   |  Freebase(MovieLens-1M)  |
 |:---------------:|          :-----------:         |     :-------:     |
-|   #entities    |              106389            |       398505      |
+|   #entities    |              58266            |       398505      |
 |   #relations   |                 9              |         57        |
 |    #triples    |              464567            |       3396595     |
 
