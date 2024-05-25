@@ -1,10 +1,8 @@
 ## Introduction
-KGNS is a new recommendation framework for long tail recommendations. KGNS is based on the graph neural network framework, which expands the long tail interest of users and enhances the long tail item representation using co-occurrence graphs to provide high-quality recommendations.
+KGNS is a new recommendation framework for long tail recommendations.
 
 ## Author
-Zhipeng Zhang 
-
-{School of Computer Science and Artificial Intelligence, Liaoning Normal University, Dalian, China}
+Zhipeng Zhang, Mianxiong Dong, Ota Kaoru, Yao Zhang, Yonggong Ren
 
 ## Environment Requirement
 The code has been tested running under Python 3.7.10. The required packages are as follows:
