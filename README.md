@@ -1,9 +1,6 @@
 ## Introduction
 KGNS is a new recommendation framework for long tail recommendations.
 
-## Author
-Zhipeng Zhang, Mianxiong Dong, Ota Kaoru, Yao Zhang, Yonggong Ren
-
 ## Environment Requirement
 The code has been tested running under Python 3.7.10. The required packages are as follows:
 * torch == 1.8.0
