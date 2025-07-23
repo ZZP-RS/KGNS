@@ -40,7 +40,7 @@ python main_KGNS.py
 
 
 ## datasets
-We provided three datasets to validate KGNS: MovieLens, LastFM, and Yelp2018. The following table shows the information of two datasets:
+We provided three datasets to validate KGNS: MovieLens, LastFM, and Yelp2018. The following table shows the information of three datasets:
 
 |                | LastFM |MovieLens| Yelp2018|
 | :------------: | :-----: |  :-----:   | :-----:   |
